@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -104,3 +105,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
    scheduling — just flag it and I can walk through the migration.
 6. Confirm `favicon.png` and `hero.png` actually exist in your `/public` folder —
    they're referenced but weren't part of what you shared.
+=======
+# personal_portfolio
+>>>>>>> a8711bff4a6f1d085758c8adf5afc52634b9f82e
