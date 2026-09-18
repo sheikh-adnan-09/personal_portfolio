@@ -90,7 +90,8 @@ const Contact = () => {
           className="space-y-5 rounded-[32px] bg-white/95 p-8 shadow-lg shadow-slate-900/5 ring-1 ring-slate-200"
         >
           <div className="text-sm text-slate-700 underline underline-offset-4">
-            Still working on this contact page hence it won't work as expected
+            Still working on this contact page hence it won&apos;t work as
+            expected
           </div>
           <label className="block space-y-2 text-sm text-slate-700">
             <span>Name</span>
