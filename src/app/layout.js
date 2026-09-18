@@ -1,0 +1,39 @@
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Navbar from "@/components/navbar";
+
+const inter = Inter({ subsets: ["latin"], display: "swap" });
+
+export const metadata = {
+  metadataBase: new URL("https://your-domain.com"), // TODO: replace with your real deployed domain
+  title: {
+    default: "Adnan's Portfolio",
+    template: "%s | Adnan's Portfolio",
+  },
+  description:
+    "A creative portfolio built with Next.js, Tailwind CSS, and Framer Motion.",
+  icons: {
+    icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "Adnan's Portfolio",
+    description:
+      "A creative portfolio built with Next.js, Tailwind CSS, and Framer Motion.",
+    type: "website",
+  },
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <div className="min-h-screen w-screen bg-gradient-to-b from-blue-100 to-red-100 text-slate-900">
+          <div className="h-24">
+            <Navbar />
+          </div>
+          <main className="pt-2">{children}</main>
+        </div>
+      </body>
+    </html>
+  );
+}
