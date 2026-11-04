@@ -1,19 +1,24 @@
+import ExternalLink from "@/components/ExternalLink";
+
 const Portfolio = () => {
   const work = [
     {
       title: "Animated landing page",
       description:
         "A high-conversion hero experience with motion-led sections and bold typography.",
+      details: "Will be available soon...",
     },
     {
       title: "Portfolio showcase",
       description:
         "Designed a clean project gallery with filters and interactive previews.",
+      details: "The art of code you are viewing right now..",
     },
     {
       title: "E-commerce concept",
       description:
         "A modern product gallery with polished cards and responsive layout.",
+      details: "https://shoe-store-alpha-eight.vercel.app/",
     },
   ];
 
@@ -45,9 +50,7 @@ const Portfolio = () => {
               {item.title}
             </h2>
             <p className="mt-4 text-slate-600 leading-7">{item.description}</p>
-            <div className="mt-6 text-sm font-semibold text-slate-950">
-              Details will be uploaded soon.. →
-            </div>
+            <ExternalLink details={item.details} />
           </div>
         ))}
       </div>

@@ -173,9 +173,9 @@ const Homepage = () => {
               <p className="mt-3 text-sm leading-7 text-slate-600">
                 {project.description}
               </p>
-              <div className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-slate-950">
+              {/* <div className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-slate-950">
                 Explore link will be soon available..
-              </div>
+              </div> */}
             </div>
           ))}
         </div>
